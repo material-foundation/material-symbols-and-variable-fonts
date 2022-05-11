@@ -1,0 +1,97 @@
+/**
+ * Copyright 2022 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@import url(theme.css);
+@import url(adapter.css);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700);
+
+@font-face {
+  font-family: "RobotoFlex";
+  src: url("/fonts/RobotoFlex.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RobotoSerif";
+  src: url("/fonts/RobotoSerif.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MaterialSymbolsOutlined";
+  src: url("/fonts/MaterialSymbolsOutlined.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100 700;
+}
+
+@font-face {
+  font-family: "MaterialSymbolsSharp";
+  src: url("/fonts/MaterialSymbolsSharp.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MaterialSymbolsRounded";
+  src: url("/fonts/MaterialSymbolsRounded.ttf") format("truetype");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--md-sys-color-background);
+  color: var(--md-sys-color-on-background);
+  transition: opacity 0.2s ease-in-out;
+}
+
+generated-app {
+  width: 100%;
+  height: 100%;
+}
+
+.material-theme {
+  --md-comp-app-bar-color: #ecf3fe;
+  --md-comp-app-bar-on-color: #1f1f1f;
+  --md-sys-color-outline: #c4c4c4;
+}
+
+.dark-theme {
+  --md-sys-color-background: var(--md-sys-color-background-dark);
+  --md-comp-app-bar-color: var(--md-sys-color-surface);
+  --md-comp-app-bar-on-color: var(--md-sys-color-on-surface);
+  --md-sys-color-outline: var(--md-sys-color-outline-dark);
+}
+
+/* Dark mode */
+@media screen and (prefers-color-scheme: dark) {
+  .material-theme {
+    --md-sys-color-background: var(--md-sys-color-background-dark);
+    --md-comp-app-bar-color: var(--md-sys-color-surface);
+    --md-comp-app-bar-on-color: var(--md-sys-color-on-surface);
+    --md-sys-color-outline: #c4c4c4;
+  }
+  .light-theme {
+    --md-sys-color-background: rgba(251, 247, 247, 1);
+    --md-comp-app-bar-color: #ecf3fe;
+    --md-comp-app-bar-on-color: #1f1f1f;
+    --md-sys-color-outline: var(--md-sys-color-outline-dark);
+  }
+}
