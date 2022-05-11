@@ -1,4 +1,4 @@
-import{r as c,e as v,s as h,$ as m,n as d}from"./vendor.8226bdf7.js";import"./utilities.02bf2a00.js";import"./slider-control.ab10962b.js";var O=Object.defineProperty,$=Object.getOwnPropertyDescriptor,b=(s,e,r,o)=>{for(var t=o>1?void 0:o?$(e,r):e,l=s.length-1,n;l>=0;l--)(n=s[l])&&(t=(o?n(e,r,t):n(t))||t);return o&&t&&O(e,r,t),t};let i=class extends h{constructor(){super(...arguments);this.value=0}render(){return m`
+import{r as c,e as v,s as h,$ as m,n as d}from"./vendor.8226bdf7.js";import"./utilities.ebb9f1dd.js";import"./slider-control.ab10962b.js";var O=Object.defineProperty,$=Object.getOwnPropertyDescriptor,b=(s,e,r,o)=>{for(var t=o>1?void 0:o?$(e,r):e,l=s.length-1,n;l>=0;l--)(n=s[l])&&(t=(o?n(e,r,t):n(t))||t);return o&&t&&O(e,r,t),t};let i=class extends h{constructor(){super(...arguments);this.value=0}render(){return m`
       <step-option
         title="Weight"
         description="Weight defines the thickness of a symbol. It provides a full, continuous range of stroke thicknesses."

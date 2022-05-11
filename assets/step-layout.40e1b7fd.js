@@ -124,8 +124,8 @@ https://github.com/highlightjs/highlight.js/issues/2277`),P=g,y=b),I===void 0&&(
       </div>
     </div>`}firstUpdated(){document.addEventListener("theme-change",()=>{this.requestUpdate()})}};Ce.styles=Me`
     .code {
-      color: var(--md-sys-color-on-surface-variant);
-      background-color: var(--md-sys-color-surface-variant);
+      color: var(--md-sys-color-on-surface);
+      background-color: var(--md-sys-color-surface);
       width: 100%;
       height: 100%;
       display: flex;

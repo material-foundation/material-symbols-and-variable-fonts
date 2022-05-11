@@ -1,4 +1,4 @@
-import{r as p,e as u,s as c,$ as v,n as h}from"./vendor.8226bdf7.js";import"./utilities.02bf2a00.js";import"./slider-control.ab10962b.js";var y=Object.defineProperty,f=Object.getOwnPropertyDescriptor,d=(r,e,o,s)=>{for(var t=s>1?void 0:s?f(e,o):e,l=r.length-1,n;l>=0;l--)(n=r[l])&&(t=(s?n(e,o,t):n(t))||t);return s&&t&&y(e,o,t),t};let i=class extends c{constructor(){super(...arguments);this.value=0}render(){return v`
+import{r as p,e as u,s as c,$ as v,n as h}from"./vendor.8226bdf7.js";import"./utilities.ebb9f1dd.js";import"./slider-control.ab10962b.js";var y=Object.defineProperty,f=Object.getOwnPropertyDescriptor,d=(r,e,o,s)=>{for(var t=s>1?void 0:s?f(e,o):e,l=r.length-1,n;l>=0;l--)(n=r[l])&&(t=(s?n(e,o,t):n(t))||t);return s&&t&&y(e,o,t),t};let i=class extends c{constructor(){super(...arguments);this.value=0}render(){return v`
       <step-option
         title="Grade"
         description="Finesse the style from lighter to bolder, without any changes in overall width – so there are no changes to line breaks or page layout typically caused by changes in weight."

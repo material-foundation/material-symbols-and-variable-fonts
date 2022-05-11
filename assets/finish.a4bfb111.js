@@ -1,4 +1,4 @@
-import{r as d,e as p,s as f,$ as u,n as m}from"./vendor.8226bdf7.js";import"./step-layout.c15fdb61.js";import"./next-button.1a74693d.js";import"./directive.9b57a945.js";var g=Object.defineProperty,h=Object.getOwnPropertyDescriptor,r=(s,e,i,o)=>{for(var t=o>1?void 0:o?h(e,i):e,n=s.length-1,l;n>=0;n--)(l=s[n])&&(t=(o?l(e,i,t):l(t))||t);return o&&t&&g(e,i,t),t};let a=class extends f{constructor(){super(...arguments);this.title="",this.subtitle="",this.href=""}render(){const{title:s,subtitle:e}=this;return u`<button
+import{r as d,e as p,s as f,$ as u,n as m}from"./vendor.8226bdf7.js";import"./step-layout.40e1b7fd.js";import"./next-button.1a74693d.js";import"./directive.9b57a945.js";var g=Object.defineProperty,h=Object.getOwnPropertyDescriptor,r=(s,e,i,o)=>{for(var t=o>1?void 0:o?h(e,i):e,n=s.length-1,l;n>=0;n--)(l=s[n])&&(t=(o?l(e,i,t):l(t))||t);return o&&t&&g(e,i,t),t};let a=class extends f{constructor(){super(...arguments);this.title="",this.subtitle="",this.href=""}render(){const{title:s,subtitle:e}=this;return u`<button
       @click=${()=>{this.href&&window.open(this.href,"_blank")}}
     >
       <span class="title">${s}</span>

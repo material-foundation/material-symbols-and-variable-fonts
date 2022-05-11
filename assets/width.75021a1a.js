@@ -1,4 +1,4 @@
-import{r as u,e as p,s as v,$ as c,n as d}from"./vendor.8226bdf7.js";import"./utilities.02bf2a00.js";import"./slider-control.ab10962b.js";var f=Object.defineProperty,b=Object.getOwnPropertyDescriptor,h=(r,e,s,o)=>{for(var t=o>1?void 0:o?b(e,s):e,n=r.length-1,l;n>=0;n--)(l=r[n])&&(t=(o?l(e,s,t):l(t))||t);return o&&t&&f(e,s,t),t};let i=class extends v{constructor(){super(...arguments);this.value=0}render(){return c`
+import{r as u,e as p,s as v,$ as c,n as d}from"./vendor.8226bdf7.js";import"./utilities.ebb9f1dd.js";import"./slider-control.ab10962b.js";var f=Object.defineProperty,b=Object.getOwnPropertyDescriptor,h=(r,e,s,o)=>{for(var t=o>1?void 0:o?b(e,s):e,n=r.length-1,l;n>=0;n--)(l=r[n])&&(t=(o?l(e,s,t):l(t))||t);return o&&t&&f(e,s,t),t};let i=class extends v{constructor(){super(...arguments);this.value=0}render(){return c`
       <step-option
         title="Weight"
         description="Adjust the style from lighter to bolder, by varying stroke thicknesses. This typically changes overall width, and so may be used in conjunction with Width and Grade (if also available in the font)."
