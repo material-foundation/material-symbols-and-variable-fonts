@@ -16,41 +16,14 @@
 
 @import url(theme.css);
 @import url(adapter.css);
-@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
-@import url(https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700);
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700);
-
-@font-face {
-  font-family: "RobotoFlex";
-  src: url("/fonts/RobotoFlex.ttf") format("truetype");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "RobotoSerif";
-  src: url("/fonts/RobotoSerif.ttf") format("truetype");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "MaterialSymbolsOutlined";
-  src: url("/fonts/MaterialSymbolsOutlined.ttf") format("truetype");
-  font-display: swap;
-  font-style: normal;
-  font-weight: 100 700;
-}
-
-@font-face {
-  font-family: "MaterialSymbolsSharp";
-  src: url("/fonts/MaterialSymbolsSharp.ttf") format("truetype");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "MaterialSymbolsRounded";
-  src: url("/fonts/MaterialSymbolsRounded.ttf") format("truetype");
-  font-display: swap;
-}
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,slnt,wdth,wght,GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC@8..144,-10..0,25..151,100..1000,-200..150,323..603,25..135,649..854,-305..-98,560..788,416..570,528..760&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wdth,wght,GRAD@0,8..144,50..150,100..900,-50..100;1,8..144,50..150,100..900,-50..100&display=swap);
+@import url(https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap);
+@import url(https://fonts.sandbox.google.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap);
+@import url(https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap);
 
 body {
   margin: 0;
